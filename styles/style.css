@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+:root {
+  --clr-oxford-blue: hsla(212, 100%, 17%, 1);
+  --clr-oxford-blue-3: hsla(219, 100%, 10%, 1);
+  --clr-delft-blue: hsla(220, 29%, 28%, 1);
+  --clr-slate-gray: hsla(222, 11%, 54%, 1);
+  --clr-cherry-blossom-pink: hsla(345, 100%, 85%, 1);
+  --clr-bakermiller-pink: hsla(345, 100%, 78%, 1);
+  --clr-russian-violet: hsla(255, 45%, 18%, 1);
+  --clr-clr-lilac: hsla(292, 28%, 68%, 1);
+  --clr-cornsilk: hsla(52, 94%, 94%, 1);
+  --clr-earth-yellow: hsla(32, 65%, 62%, 1);
+  --clr-tigers-eye: hsla(28, 67%, 44%, 1);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--clr-slate-gray);
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 25%;
+  margin-bottom: 0.75rem;
+  color: var(--clr-cornsilk);
+}
+.form-box {
+  background-color: var(--clr-delft-blue);
+  padding: 1.5rem;
+  border: 1px solid var(--clr-delft-blue);
+  box-shadow: 0px 5px 15px var(--clr-delft-blue);
+}
+.heading{
+  color: var(--clr-clr-lilac);
+  border-bottom: 1px solid var(--clr-cornsilk);
+  font-size: 22px;
+  text-align: center;
+}
+.username {
+  font-size: 20px;
+  font-weight: 500;
+}
+.email {
+  font-size: 20px;
+  font-weight: 500;
+}
+.password {
+  font-size: 20px;
+  font-weight: 500;
+}
+.btn-submit{
+  display: flex;
+  justify-content: center;
+}
+.submit{
+  padding:  0.3rem 1rem;
+  font-weight: 900;
+  background-color: var(--clr-bakermiller-pink);
+  outline: none;
+  border: 1px solid var(--clr-bakermiller-pink);
+  color: #fff;
+  cursor: pointer;
+}
