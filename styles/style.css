@@ -84,16 +84,22 @@ img {
 .message{
   font-size: 14px;
   margin-left: 0.5rem;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .form-container.error .form-input{
   border-color: red;
+  visibility: visible;
+
 }
 .form-container.error .message{
   color: red;
+  visibility: visible;
+
 }
 .form-container.success .form-input{
   border-color: rgb(5, 231, 5);
+  visibility: visible;
+
 }
 .form-container.success .message{
   color:rgb(5, 231, 5);
